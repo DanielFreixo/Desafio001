@@ -1,0 +1,23 @@
+CASO 1:
+
+Uma das opções para simular o 'Bug' Original:
+
+Escolher opção {2} Humano vs Humano
+
+Player 1 joga:			0
+Player 2 joga:			3
+Player 1 joga:			6
+Player 2 joga:			1
+Player 1 joga:			2
+Player 2 joga:			5
+Player 1 joga:			8
+Player 2 joga:			7
+Player 1 joga:			4
+
+Resposta anterior seria que foi "velha":
+
+ X | X | O 
+===+===+===
+ O | O | O	<===PORÉM player1 GANHOU!!!!
+===+===+===
+ X | O | X
