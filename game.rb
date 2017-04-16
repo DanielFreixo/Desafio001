@@ -216,7 +216,14 @@ class Game
   end
 
   def tie(b)
-    b.all? { |s| s == "X" || s == "O" }
+    if (b.all? { |s| s == "X" || s == "O" })
+      if (game_is_over(b)) #mesmo que todos os espaços esteja preenchido deve-se verificar se alguém pontuou
+        return false
+      else
+        return true
+      end      
+    end
+    return false  
   end
   
 end
